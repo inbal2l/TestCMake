@@ -27,6 +27,5 @@ target_link_libraries(${PROJECT_NAME} PUBLIC StaticLib)
 # Define includes (should be after add_executable) (7)
 target_include_directories(TestCMake PUBLIC
                             "${PROJECT_BINARY_DIR}"             # For using Config.h file
-                            "${PROJECT_LIBS_DIR}/StaticLib"     # No need to specify StaticLib/include explicitly to use <StaticLib.hpp>
                            )
 
