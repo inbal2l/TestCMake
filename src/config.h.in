@@ -7,4 +7,6 @@
 #define PROJECT_VER_MINOR "@PROJECT_VERSION_MINOR@"
 #define PTOJECT_VER_PATCH "@PROJECT_VERSION_PATCH@"
 
+#cmakedefine USE_STATICLIB  // To expose USE_STATICLIB to Main.cpp
+
 #endif // __CONFIG_H__
